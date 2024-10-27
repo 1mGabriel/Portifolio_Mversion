@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Destaques.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import Background from "../assets/Background.png";
+import Background from "../assets/background.png";
 import Button from './Button';
 import { StateContext } from "../Context/Context";
 import { useContext } from "react";
