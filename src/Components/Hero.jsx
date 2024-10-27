@@ -10,6 +10,8 @@ import Button from "./Button";
 
 const Hero = () => {
 
+
+
   const {curriculoRef,
     aboutRef,
     tecRef,
@@ -84,7 +86,7 @@ const Hero = () => {
             <input className="copiado" type="button" value={!showCopied ? "Copiar" : "Copiado"} onClick={copyToClipboard} />
         </div>
         <p  className={!showCopied ? "unpacity" : "copiado"} >email copiado para área de trasnferência</p>
-       <Button  efeito="fade-left" value="Download Cv" href="../public/curriculo2.0.pdf"/>
+       <Button  efeito="fade-left" value="Download Cv" pdfFileName="curriculo.pdf"/>
       </div>
     </section>
   );

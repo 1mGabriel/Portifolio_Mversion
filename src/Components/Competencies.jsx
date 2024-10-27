@@ -25,7 +25,7 @@ const Competencies = () => {
     <section className="competencies box">
         <div className="competencies-content container">
             
-        <Tilt  data-aos="fade-right" style={{background: "linear-gradient(to bottom, #222222, #010101)", display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center", borderRadius: "11px", height: "300px"}} options={{ scale: 2, max: 25,  "max-glare": 1}}>
+        <Tilt   style={{background: "linear-gradient(to bottom, #222222, #010101)", display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center", borderRadius: "11px", height: "300px"}} options={{ scale: 2, max: 25,  "max-glare": 1}}>
             <h1 className="gradient">WEB</h1>
             <p className="white">Domínio das principais ferramentas e frame-works para desenvolvimento web</p>
             <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ const Competencies = () => {
 
 
       </Tilt>
-      <Tilt   data-aos="fade-left" style={{background: "linear-gradient(to bottom, #FFFFFF, #5B5A5A)", display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center", borderRadius: "11px", height: "300px"}} options={{ scale: 2, max: 25,  "max-glare": 1}}>
+      <Tilt    style={{background: "linear-gradient(to bottom, #FFFFFF, #5B5A5A)", display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center", borderRadius: "11px", height: "300px"}} options={{ scale: 2, max: 25,  "max-glare": 1}}>
       <svg width="177" height="170" viewBox="0 0 177 170" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_81_2)">
 <path d="M17.2403 141.667C26.7569 141.667 34.4805 132.243 34.4805 120.631V99.5961H17.2403C7.72364 99.5961 0 109.02 0 120.631C0 132.243 7.72364 141.667 17.2403 141.667Z" fill="#0ACF83"/>
@@ -66,7 +66,7 @@ const Competencies = () => {
 </svg>
 <p ref={habilityRef}>Domínio de ferramentas para design e manipulação de imagens para prototipagens</p>
       </Tilt>
-      <Tilt  data-aos="fade-right" style={{background: "linear-gradient(to bottom, #222222, #010101)", display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center", borderRadius: "11px", height: "300px"}} options={{ scale: 2, max: 25,  "max-glare": 1}}>
+      <Tilt   style={{background: "linear-gradient(to bottom, #222222, #010101)", display: "flex", flexDirection: "column", justifyContent: "space-around", alignItems: "center", borderRadius: "11px", height: "300px"}} options={{ scale: 2, max: 25,  "max-glare": 1}}>
             <h1 className="gradient" style={{textAlign:"center"}}>API E <br /> DADOS</h1>
             <p className="white">Requisições e criações de Api´s RestFul e integrações com banco de dados</p>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
