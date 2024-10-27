@@ -1,0 +1,277 @@
+.about{
+    height: 110dvh;
+    background: linear-gradient(to bottom, #fff, #f0eeeecc);
+}
+.about-content{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.image-content{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 11px;
+    background-size: cover;
+}
+.image-content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.skills{
+    width: 90%;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: rgb(37,37,37);
+    background: linear-gradient(188deg, rgb(20, 20, 20) 0%, rgba(17,17,17,1) 98%);
+}
+.skills h1{
+    padding: 5px;
+}
+.skills ul {
+    list-style: none;
+    text-align: start;
+    padding: 10px;
+  }
+  .skills ul li h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+  }
+  .skills li{
+    padding: 10px;
+  }
+  .skills .barras {
+    background-color: #212020;
+    overflow: hidden;
+    display: block;
+    height: 10px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .barras > span {
+    height: 20px;
+    background: linear-gradient(to right, rgba(14, 14, 14, 0), #b3b4bb);
+    position: absolute;
+  
+  }
+  .html {
+    width: 80%;
+    animation: html 1s linear ;
+}
+.css {
+    width: 90%;
+    animation: css 1s linear ;
+}
+.javascript {
+    width: 70%;
+    animation: javascript 1s linear ;
+}
+.flip{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+    transform-style:preserve-3d;
+    transition: .5s ease-in;
+    display: flex;
+    justify-content: center;
+}
+.container:hover .flip{
+    transform: rotateY(180deg);
+}
+.frente, .tras{
+    position: absolute;
+    border-radius: 20px;
+
+    backface-visibility: hidden;
+}
+.tras{
+    background-color: #fff;
+    transform: rotateY(180deg);
+    box-shadow: 0px 5px 10px #1a1a1ac5;
+}
+
+.html {
+    width: 80%;
+    animation: html 1s linear ;
+}
+.css {
+    width: 90%;
+    animation: css 1s linear ;
+}
+.javascript {
+    width: 70%;
+    animation: javascript 1s linear ;
+}
+.react{
+    width: 80%;
+    animation: react 1s linear ;
+}
+.node {
+    width: 50%;
+    animation: node 1s linear ;
+}
+.database {
+    width: 40%;
+    animation: database 1s linear ;
+}
+.sass {
+    width: 50%;
+    animation: sass 1s linear ;
+}
+.jquery {
+    width: 45%;
+    animation: jquery 1s linear ;
+}
+.mysql{
+    width: 40%;
+    animation: mysql 1s linear ;
+}
+.git {
+    width: 58%;
+    animation: git 1s linear ;
+}
+.postman {
+    width: 87%;
+    animation: postman 1s linear ;
+}
+.node {
+    width: 60%;
+    animation: node 1s linear ;
+}
+.express {
+    width: 60%;
+    animation: express 1s linear ;
+}
+.typescript {
+    width: 45%;
+    animation: typescript 1s linear ;
+}
+
+/* Animações */
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes sass {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes jquery {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+@keyframes git {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 58%;
+    }
+}
+@keyframes postman {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 87%;
+    }
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes typescript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+@keyframes mysql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes database {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.about-text-content{
+    top: 430px;
+    position: relative;
+    padding-bottom: 100px;
+  }
+  
+  

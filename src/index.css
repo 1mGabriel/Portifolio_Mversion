@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Lexend Exa", sans-serif;
+}
+.box{
+  width: 100%;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.ligther{
+  font-weight: lighter;
+}
+.bold{
+  font-weight: bold;
+}
+.gradient{
+  background-image: linear-gradient(to bottom, rgb(112, 112, 112), rgb(175, 175, 175), rgb(255, 255, 255));
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+
+}
+
+.hide{
+  display: none;
+}
+.white{
+  color: #fff;
+  padding: 4px;
+  padding-bottom: 5px;
+}
+.unpacity{
+  padding: 5px;
+  height: 30px;
+  opacity: 0;
+}

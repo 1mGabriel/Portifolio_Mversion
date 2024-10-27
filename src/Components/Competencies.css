@@ -1,0 +1,16 @@
+.competencies{
+    height: 140vh;
+}
+.competencies-content {
+    transform-style: preserve-3d;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.competencies-content p{
+    text-align: center;
+}
+.competencies-content h1{
+    font-size: 40px;
+}

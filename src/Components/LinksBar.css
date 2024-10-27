@@ -1,0 +1,36 @@
+.links{
+    height: 65px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #000000;
+    z-index: 98;
+    border-radius: 11px 11px 0 0 ;
+    padding: 10px;
+}
+.links-bar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.links-bar a{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: .3s;
+    text-decoration: none;
+    background-color: rgb(15, 15, 15);
+
+}
+#link span path{
+    transition: .3s;
+    opacity: .3;
+}
+
+#link:hover span path{
+    opacity: 1;
+}

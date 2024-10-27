@@ -1,0 +1,145 @@
+.hero {
+padding-top: 50px;
+  height: 100vh;
+  background-color: #000; 
+  background-size: 500% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+.hero-logo {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: show 4s;
+}
+.hero-texts {
+  text-align: center;
+;
+}
+.hero-texts p {
+  font-size: 16px;
+}
+.hero-texts h2 {
+  font-size: 34px;
+}
+.hero-texts span{
+    position: relative;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.hero-texts span::before{
+    content: "";
+    animation: palavras 15s infinite;
+}
+.hero-texts span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid rgb(134, 132, 132) ;
+    font-weight: lighter;
+    right: -10px;
+    animation: cursor .8s infinite, digita 15s steps(15) infinite ;
+    width: calc(100% + 15px);
+    background-color: #000000;
+}
+.hero-email input{
+    padding: 15px;
+}
+.hero-email input[type="text"]{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #464242;
+    transition: .4s;
+}
+.hero-email input[type="text"]:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+.hero-email input[type="button"]{
+    border: 1px solid #464242;
+    color: #fff;
+    background-color: transparent;
+    width: 100px;
+    transition: .4s;
+}
+
+.hero-email input[type="button"]:hover{
+    border: 1px solid #464242;
+    color: #1f1f1f;
+    background-color: #fff
+
+}
+.copiado{
+  transition: .4s;
+  color: #42643b;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+p.copiado{
+  padding: 5px;
+height: 30px;
+}
+
+/*  */
+
+
+
+
+
+
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%,95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%,85%{
+        width: calc(100% + 15px);
+    }
+ }
+ @keyframes cursor {
+    0%{
+        border-left: 2px solid #333 ;
+    }
+}
+@keyframes palavras {
+    0%, 20%{
+       content: "Web";
+    }
+    21%,40%{
+       content: "Front-end";
+    }
+    41%,60%{
+       content: "Back-end";
+    }
+    61%, 80%{
+       content: "Full-stack";
+    }
+    81%, 100%{
+       content: "UI/UX";
+    }
+   }
+
+@keyframes degrade-animado {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,98 @@
+.navbar{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu.btn{
+    cursor: pointer;
+    opacity: .5;
+    transition: .3s;
+}
+.menu.btn:hover{
+    opacity: 1;
+}
+.menu-box-hide{
+    width: 0px;
+    position: fixed;
+height: 0px;
+z-index: 99;
+    transition: .5s;
+    overflow: hidden;
+}
+.menu-box{
+    transition: .5s;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+.menu-box span{
+    opacity: .4;
+    cursor: pointer;
+    position: relative;
+    left: 350px;
+    padding: 10px;
+    font-size: 40px;
+}
+.menu-content{
+    height: 100%;
+    display: flex;
+    justify-content: 
+    center;
+    align-items: center;
+}
+.menu-content ul{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.options li{
+    list-style: none;
+}
+.options li h3{
+    transition: .4s;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    opacity: .3;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+.options li h3:hover{
+    opacity: 1;
+}
+.menu-box span:hover{
+    opacity: 1;
+}
+@media (max-width:390px) {
+    .menu-box span{
+        opacity: .4;
+        cursor: pointer;
+        position: relative;
+        left: 300px;
+        padding: 10px;
+        font-size: 40px;
+    }
+}
