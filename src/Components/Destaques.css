@@ -73,6 +73,24 @@ align-items: center;
     align-items: center;
     gap: 10px;
 }
+.buttons button a{
+    text-decoration: none;
+    color: #fff;
+}
+.buttons button{
+    padding: 15px;
+    width:300px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+.buttons button:hover{
+    background-color: #fff;
+}
+.buttons button:hover a{
+    color: #000;
+}
 @keyframes grow {
     0%{
         width: 0%;

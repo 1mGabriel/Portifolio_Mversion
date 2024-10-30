@@ -86,8 +86,8 @@ const Destaques = () => {
                     ))}
                   </ul>
                   <div className="buttons">
-                    <Button value="Deploy" efeito="zoom-in" href={destaques[position].deploy} />
-                    <Button value="Código" efeito="zoom-in" href={destaques[position].code} />
+                  <button ><a href={destaques[position].deploy} target="_blank">Deploy</a></button>
+                  <button ><a href={destaques[position].code} target="_blank">Código</a></button>
                   </div>
                 </div>
               </div>
