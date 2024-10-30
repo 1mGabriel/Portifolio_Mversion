@@ -86,7 +86,7 @@ const Hero = () => {
             <input className="copiado" type="button" value={!showCopied ? "Copiar" : "Copiado"} onClick={copyToClipboard} />
         </div>
         <p  className={!showCopied ? "unpacity" : "copiado"} >email copiado para área de trasnferência</p>
-       <Button  efeito="fade-left" value="Download Cv" pdfFileName="curriculo.pdf"/>
+       <Button  efeito="fade-left" value="Download Cv" pdfFileName="gabriel-curriculo-att.pdf"/>
       </div>
     </section>
   );

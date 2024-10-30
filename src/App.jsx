@@ -38,6 +38,7 @@ function App() {
   <section>
     <AllProjects/>
   </section>
+
     </>
   )
 }
